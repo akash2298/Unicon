@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/*Header ssection css style*/
+#header-section {
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar .navbar-brand img {
+    width: 120px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    margin: 0px 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+.navbar-nav .nav-item.active {
+    background-image: url(images/br.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-image: url(images/br.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.navbar-nav .nav-item .btn {
+    color: #FFF;
+
+    background-image: linear-gradient(to right, #511de5 50%, #0e88fb);
+    padding: 9px 45px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-left: 10PX;
+}
+
+/*Banner Style*/
+.banner-inner {
+    margin-top: 110px;
+}
+
+.banner-inner h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.banner-inner h2 span {
+    color: #511de5;
+    ;
+}
+
+.banner-inner button {
+    padding: 8px 30px;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    letter-spacing: 4px;
+}
+
+/*Banner Style*/
+
+/*Header section css style*/
+/*hightlight section css style*/
+#hlight-area {
+    background-image: url(images/hlight-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.highlight-inner h4 {
+    font-weight: 900;
+    padding: 70px 0px;
+}
+
+.hlight-img {
+    position: absolute;
+    top: -60px;
+}
+
+/*hightlight section css style*/
+/*Feature section css style*/
+#feature {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.feature-inner {
+    width: 100%;
+    padding: 80px 60px;
+    background-image: url(images/feature-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.feature-inner h4 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin: 40px;
+}
+
+.feature-inner p {
+    margin: 40px;
+}
+
+.feature-inner .per {
+    margin-right: 40px;
+    display: inline-block;
+    font-size: 8rem;
+    font-weight: 900;
+    background-image: linear-gradient(to right, #511de5 40%, #0b8cfb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*Feature section css style*/
+/*Client section css style*/
+#client-area{
+    width: 100%;
+}
+#client-area .client-logo{
+    width: 100%;
+}
+#client-area .client-logo img{
+    width: 100%;
+}
+/*Client section css style*/
+/*Intro Qoute section css style*/
+#intro-qoute {
+    width: 100%;
+    padding: 155px 0px;
+    background-image: url(images/qoute-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#intro-qoute .qoute-inner {
+    width: 100%;
+}
+
+#intro-qoute .qoute-inner .left {
+    width: 100%;
+    background-image: url(images/qoute.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    padding: 170px 0px;
+    text-align: center;
+}
+
+#intro-qoute .qoute-inner .left p {
+    font-size: 1.2rem;
+}
+
+#intro-qoute .qoute-inner .left h4 {
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+#intro-qoute .qoute-inner .right {
+    width: 100%;
+    margin-top: 155px;
+}
+
+#intro-qoute .qoute-inner .right h4 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#intro-qoute .qoute-inner .right button {
+    padding: 8px 30px;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    letter-spacing: 4px;
+}
+
+/*Intro Qoute section css style*/
+/*Efficiency section css style*/
+#efficiency {
+    width: 100%;
+    padding: 80px 0px;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+#efficiency .effi-inner {
+    width: 100%;
+    padding: 40px 0px;
+}
+
+#efficiency .effi-inner .effi-text {
+    width: 100%;
+}
+
+#efficiency .effi-inner .effi-text h4 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#efficiency .effi-inner .effi-text p {
+    margin-bottom: 20px;
+}
+
+#efficiency .effi-inner .effi-text ul li {
+    margin-bottom: 10px;
+}
+
+#efficiency .effi-inner .effi-text ul li img {
+    margin-right: 20px;
+}
+
+#efficiency .effi-inner .effi-text button {
+    color: #FFF;
+    background-image: linear-gradient(to right, #511de5 50%, #0e88fb);
+    padding: 9px 35px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin-top: 30PX;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+#efficiency .effi-inner .effi-image {
+    width: 100%;
+}
+
+#efficiency .effi-inner .effi-image img {
+    width: 100%;
+}
+
+/*Efficiency section css style*/
+/*service section css style*/
+#service {
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #fcfcfc;
+}
+
+#service .title {
+    margin-bottom: 60px;
+}
+
+#service .title h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#service .title p {
+    font-size: 1rem;
+}
+
+#service .service-inner {
+    text-align: center;
+    width: 100%;
+}
+
+#service .service-inner h4 {
+    margin: 20px 0px;
+    font-weight: 700;
+}
+
+/*service section css style*/
+/*Inspir Qoute section css style*/
+#inspir-qoute {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+#inspir-qoute .heading h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+#inspir-qoute .inspir-inner {
+    width: 100%;
+    background-image: url(images/qoute2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px #ddd;
+    opacity: 0.4;
+    transition: .5s;
+}
+
+#inspir-qoute .inspir-inner:hover {
+    opacity: 1;
+}
+
+#inspir-qoute .inspir-inner p {
+    padding: 110px 10px;
+    background-image: linear-gradient(to right, #511de5, #0e88fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+#inspir-qoute .inspir-inner .user {
+    padding: 10px;
+}
+
+#inspir-qoute .inspir-inner .user img {}
+
+#inspir-qoute .inspir-inner .user h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+#inspir-qoute .inspir-inner .user span {}
+
+/*Inspir Qoute section css style*/
+/*FAQ section css style*/
+#faq-section {
+    width: 100%;
+    padding: 80px 0px;
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 180px;
+}
+
+#faq-section .faq {
+    padding: 80px;
+    box-shadow: 0px 0px 30px #aaa;
+    background-color: #FFF;
+    margin-bottom: 80px;
+}
+
+#faq-section .faq .heading h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#faq-section .faq .faq-inner .card {
+    border: none !important;
+    border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
+}
+
+#faq-section .faq .faq-inner .card:last-child {
+    border: none !important;
+}
+
+#faq-section .faq .faq-inner .card .card-header {
+    border: none !important;
+    background: none !important;
+}
+
+#faq-section .faq .faq-inner .card .card-header .btn {
+    color: #0000ff !important;
+    font-weight: bold !important;
+}
+
+#faq-section .faq .faq-inner .card .card-header .btn:hover {
+    text-decoration: none !important;
+    color: #0000ff !important;
+}
+
+#faq-section .faq .faq-inner .card .card-header .btn:active {
+    text-decoration: none !important;
+    color: #0000ff !important;
+}
+/*Footer section css style*/
+.ft-bar .nav .nav-item .nav-link{
+    color: #FFF;
+    font-weight: bold;
+}
+.ft-bar .nav .nav-item .nav-link:hover{
+    color: #FFF !important;
+}
+.ft-bar .nav .navbar-text{
+    font-weight: 900;
+}
+/*Footer section css style*/
+
+/*FAQ section css style*/
